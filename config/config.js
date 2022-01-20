@@ -2,6 +2,7 @@ import router from "../src/routes/index.js";
 import path from "path";
 
 export default function config(app, express) {
+  
   //express configurations
   app.set("views", `src/views/`);
   app.set("view engine", "ejs");
